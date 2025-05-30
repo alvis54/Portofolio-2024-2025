@@ -12,7 +12,6 @@ body {
 .cv-container {
     display: flex;
     background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -43,7 +42,6 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #ecf0f1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Ensure the face is always visible */
@@ -130,9 +128,15 @@ body {
 /* About */
 /* Contact */
 .contact-info {
-  list-style-type: disc; /* Menampilkan bullet point (default) */
+  list-style-type:circle; /* Menampilkan bullet point (default) */
   padding-left: 20px;    /* Memberi jarak dari kiri */
 }
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem; /* Memberikan jarak antar ikon */
+}
+
 /* Education */
 .education {
     margin-bottom: 20px;
